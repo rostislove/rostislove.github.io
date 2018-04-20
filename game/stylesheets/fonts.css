@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Navigo-Black";  
+    src: url("../fonts/NavigoBlack.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Navigo-Light";  
+    src: url("../fonts/NavigoLight.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "Navigo-Regular";  
+    src: url("../fonts/NavigoRegular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Navigo-Medium";  
+    src: url("../fonts/NavigoMedium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Navigo-Bold";  
+    src: url("../fonts/NavigoBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
