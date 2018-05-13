@@ -98,7 +98,11 @@ header nav ul li a:hover {
   height: 592px;
   background-color: #E2E2E2;
   margin-bottom: 16px;
+}
+
+.content__item.content__item-frist {
   background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
 }
 
 .content__item.content__item-second {
@@ -112,8 +116,6 @@ header nav ul li a:hover {
 
 .content__item.content__item-fourth {
   background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
 }
 
 .content__item.content__item-five {
