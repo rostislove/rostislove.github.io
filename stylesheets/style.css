@@ -79,8 +79,8 @@ header nav ul li a:hover {
 .intro h1 {
   width: 700px;
   margin: 0 auto;
-  padding: 4rem 0rem 4rem;
-  font-size: 1.7em;
+  padding: 4rem 0 6rem;
+  font-size: 2.6em;
   line-height: 1.3em;
   font-weight: 500;
   text-align: center;
@@ -97,7 +97,7 @@ header nav ul li a:hover {
 .content__item {
   height: 592px;
   background-color: #E2E2E2;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .content__item.content__item-frist {
@@ -130,6 +130,18 @@ header nav ul li a:hover {
   background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
+.content__item.content__item-eight {
+  background: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+}
+
+.content__item.content__item-nine {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.content__item.content__item-ten {
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
 .content__item-2-col {
   display: flex;
   flex-direction: row;
@@ -154,7 +166,7 @@ header nav ul li a:hover {
 
 .content__item-2-col > .content__item {
   width: 50%;
-  margin-right: 16px;
+  margin-right: 8px;
 }
 
 .content__item-2-col > .content__item:last-child {
@@ -176,9 +188,14 @@ header nav ul li a:hover {
 
 .content__item > .item__text p {
   font-size: 16px;
+  line-height: 24px;
   color: rgba(0,0,0,0.5);
   text-align: center;
   padding-bottom: 16px;
+}
+
+.content__item .links a {
+  margin: 0 6px;
 }
 
 .content__item > .item__text a {
