@@ -1,4 +1,4 @@
-import { TextGenerateEffect } from '/Users/boris/Documents/byrost/portfolio/my-project/src/components/ui/text-generate-effect.tsx'
+import { TextGenerateEffect } from './components/ui/text-generate-effect.tsx'
 import './App.css'
 
 function App() {
